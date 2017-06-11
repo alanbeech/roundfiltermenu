@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Idx.RoundFilterMenu" 
+    x:Class="Idx.RoundFilterMenu.Idx_RoundFilterMenuPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <local:FilterMenu x:Name="Menu" HorizontalOptions="Center" VerticalOptions="Center" ></local:FilterMenu>
+        <Label x:Name="Notifier" Grid.Row="1" HorizontalTextAlignment="Center"></Label>
+    </Grid>
+</ContentPage>
